@@ -1,0 +1,237 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Latitude Web Visualization Dashboard</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+
+                        aria-expanded="false">
+
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <!--left nav link-->
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="active">
+
+                            <a href="index.html">Latitude
+
+                                <span class="sr-only">(current)</span>
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                    <!--Right nav link-->
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+
+                                <span class="caret"></span>
+
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+
+                                    <a href="temp.html">Max Temperature</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="humid.html">Humidity</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="cloud.html">Cloudiness</a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="wind.html">Wind Speed</a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li>
+
+                            <a href="comparison.html">Comparison</a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="data.html">Data</a>
+
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
+
+                <!-- /.navbar-collapse -->
+
+            </div>
+
+            <!-- /.container-fluid -->
+
+        </nav>
+
+
+
+        <!--Main Grid-->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <div class="main-box">
+
+                        <h1 class="main-pg-header">Max Temperature</h1>
+
+                        <hr>
+
+                        <div class="summary txt">
+
+                            <img id="result-img" src="https://github.com/yarlov2/Latitude-Analysis-Web-Visualization-Dashboard/blob/master/images/temp.png?raw=true", alt="Temp vs Latitude">
+
+                            <p> As shown from the figure, there is indirect relationship between latitude and temperature. As we go to higher Latitude, 
+
+                                the temperature going to be decreases. However, as we go down to lower latitude, the temperature also getting lower. 
+                                
+                                The temperature increases for cities situated near the equator (0 degree latitude). The highest temperatures are presented 
+
+                                in cities between the Tropic of Cancer and Tropic of Capricorn. Furthermore, there is a sharp decrease in temperature for cities North of the equator.
+
+                                
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-5">
+
+                    <div class="side-box">
+
+                        <h2 class="main-pg-subheader">Visualizations</h2>
+
+                        <hr>
+
+                        <div class="sidebar">
+
+                            <a href="temp.html">
+
+                                <img id="side-img1" src="https://github.com/yarlov2/Latitude-Analysis-Web-Visualization-Dashboard/blob/master/images/temp.png?raw=true", 
+                                style="width:45%; float: right; margin: 10px;", alt="Temp vs. Latitude Scatterplt">
+
+                            </a>
+
+                            <a href="humid.html">
+
+                                <img id="side-img2" src="https://github.com/yarlov2/Latitude-Analysis-Web-Visualization-Dashboard/blob/master/images/humi.png?raw=true", 
+                                style="width:45%; float: right; margin: 10px;", alt="Humidity vs. Latitude Scatterplt">
+
+                            </a>
+
+                            <a href="cloud.html">
+
+                                <img id="side-img3" src="https://github.com/yarlov2/Latitude-Analysis-Web-Visualization-Dashboard/blob/master/images/cloud.png?raw=true", 
+                                style="width:45%; float: right; margin: 10px;", alt="Cloudiness vs. Latitude Scatterplt">
+
+                            </a>
+
+                            <a href="wind.html">
+
+                                <img id="side-img4" src="https://github.com/yarlov2/Latitude-Analysis-Web-Visualization-Dashboard/blob/master/images/wind.png?raw=true", 
+                                style="width:45%; float: right; margin: 10px;", alt="Wind Speed vs. Latitude Scatterplt">
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--Footer-->
+
+        <div class="container-fluid bottom-footer page-footer">
+
+            <div class="row">
+
+                <div class="col text-center" <p id="footer-txt">
+
+                    &copy; Copyright Coding Bootcamp 2018
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+
+    </html>
