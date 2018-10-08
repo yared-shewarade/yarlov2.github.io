@@ -1,4 +1,4 @@
-Latitude Analysis Web Visualization Dashboard
+# Latitude Analysis Web Visualization Dashboard
 
 The objective of this project was to create a visualization dashboard website weather data using HTML and CSS. In building this dashboard, I created individual pages for each plot and a means by which users can navigate between them. These individual pages contain the visualization and their corresponding explanations. The website consist of seven pages:
 Landing page: Contains an explanation of the weatherPy project and links to each visualization page
