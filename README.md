@@ -5,4 +5,5 @@ Landing page: Contains an explanation of the weatherPy project and links to each
 Four visualization pages: Contains a descriptive title, plot/visualization itself, and a brief description of the plot and its significance
 Comparison page: Contains all the visualization on the same page so users can easily visually compare the four plots
 Data page: Contains a responsive table with data used for the visualizations.
-Finish product: https://yarlov2.github.io/
+
+please go to this website to see finished visualization dashboard: https://yarlov2.github.io/
